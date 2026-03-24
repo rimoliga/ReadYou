@@ -66,6 +66,7 @@ fun DarkThemePage(
                     )
                     SettingItem(
                         title = stringResource(R.string.amoled_dark_theme),
+                        desc = stringResource(R.string.amoled_dark_theme_desc),
                         onClick = {
                             (!amoledDarkTheme).put(context, scope)
                         },

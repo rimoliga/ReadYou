@@ -112,11 +112,14 @@ fun dynamicDarkColorScheme(): ColorScheme {
         onTertiaryFixedVariant = palettes tertiary 30
     ).run {
         if (useAmoledDarkTheme) copy(
+            background = Color.Black,
             surface = Color.Black,
+            surfaceBright = palettes neutral 12,
+            surfaceDim = Color.Black,
             surfaceContainerHighest = palettes neutral 8,
             surfaceContainerHigh = palettes neutral 6,
             surfaceContainer = palettes neutral 4,
-            surfaceContainerLow = palettes neutral 4,
+            surfaceContainerLow = palettes neutral 2,
             surfaceContainerLowest = Color.Black,
         ) else this
     }
