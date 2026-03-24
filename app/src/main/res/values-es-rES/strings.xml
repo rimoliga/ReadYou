@@ -126,6 +126,7 @@
     <string name="off">Apagado</string>
     <string name="other">Otros</string>
     <string name="amoled_dark_theme">Tema negro oscuro</string>
+    <string name="amoled_dark_theme_desc">Usa negro puro para pantallas OLED, ahorra batería</string>
     <string name="tonal_elevation">Elevación del tono</string>
     <string name="reading_fonts">Letras lectura</string>
     <string name="basic_fonts">Letras básicas</string>
